@@ -152,6 +152,12 @@ function showResults() {
   let resultDescription = document.getElementById('personality-description');
   let pairingSuggestion = document.getElementById('pairing-suggestion');
   let funFact = document.getElementById('fun-fact');
+
+  resultImage.innerHTML = '<img src="' + result.image + '" alt="Chocolate result">';
+  resultTitle.textContent = result.title;
+  resultDescription.textContent = result.description;
+  pairingSuggestion.textContent = result.pairing;
+  funFact.textContent = result.funFact;
   
   
   // Show all sections
