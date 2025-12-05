@@ -67,6 +67,7 @@ question3Buttons.forEach(function(button) {
 });
 
 
+
 const personalities = [
   {
     title:'Bold Explorer',
@@ -75,18 +76,18 @@ const personalities = [
     combinations: [
       {
         matches: ['dark','nuts-crunchy','spicy'],
-        pairing:'Pair your dark chocolate with a bold red wine or espresso for the ultimate flavor experience.',
-        whyItWorks:'Dark chocolate contains antioxidants that can improve heart health!'
+        pairing:'Dark chocolate bark with chili-roasted almonds and a smoky mezcal on the side.',
+        whyItWorks:'The chili\'s capsaicin makes the cocoa flavors taste deeper and richer, while roasted nuts add umami and crunch; mezcal\'s smoky notes mirror dark chocolate\'s earthy aromatics, so everything feels intentionally intense instead of just "too bitter."'
       },
       {
         matches: ['dark','plain','spicy'],
-        pairing:'Try dark chocolate with spicy flavors alongside a rich port wine or strong black tea.',
-        whyItWorks:'The tannins in red wine complement the bitterness of dark chocolate, while port wine\'s sweetness balances the spicy notes perfectly.'
+        pairing:'Simple 70–80% dark chocolate with a chili–cinnamon hot chocolate or chili-infused black tea.',
+        whyItWorks:'With no extra toppings, you get a clean triangle of bitter + sweet + heat, where capsaicin heightens your perception of cocoa\'s fruity notes and the spice warmth lingers pleasantly instead of burning.'
       },
       {
         matches: ['dark','nuts-crunchy','coffee'],
-        pairing:'Dark chocolate with nuts and coffee notes pairs wonderfully with a bold espresso or dark roast coffee.',
-        whyItWorks:'The crunchy nuts add texture and protein, while the coffee enhances the chocolate\'s natural bitterness, creating a complex and energizing combination.'
+        pairing:'Dark chocolate with hazelnuts alongside a short, intense espresso.',
+        whyItWorks:'Roasted nuts and coffee share similar Maillard "roasty" aromas with dark chocolate, so the combo feels layered but still coherent—like turning the volume up on the same flavor family, not mixing random tracks.'
       },
       {
         matches: ['dark','nuts-crunchy','boozy'],
@@ -95,33 +96,33 @@ const personalities = [
       },
       {
         matches: ['dark','smooth-creamy','spicy'],
-        pairing:'Dark creamy chocolate with spicy notes pairs perfectly with a spicy red wine or hot chocolate with chili.',
-        whyItWorks:'The creamy texture soothes the heat while the dark chocolate\'s intensity matches the spice level, creating a balanced and exciting flavor experience.'
+        pairing:'Dark chocolate ganache with a hint of chili, served with chai-spiced dark hot chocolate.',
+        whyItWorks:'The extra fat from cream buffers the spice, so you get a slow, cozy warmth instead of a harsh burn, and the spices (cardamom, ginger, cinnamon) echo chocolate\'s naturally warm, baked notes.'
       },
       {
         matches: ['dark','nuts-crunchy','fruity'],
-        pairing:'Dark chocolate with nuts and fruity notes pairs excellently with a fruity red wine or berry-infused tea.',
-        whyItWorks:'The nuts add texture and protein, while the fruit\'s acidity complements dark chocolate\'s bitterness, creating a complex and satisfying flavor profile.'
+        pairing:'Dark chocolate with hazelnuts and dried cherries, plus a medium-bodied red wine like Merlot.',
+        whyItWorks:'Cherries and red wine bring acidity and red-fruit aromas that cut through cocoa\'s bitterness, while the nuts add texture and a bit of fat to soften tannins in both the chocolate and the wine.'
       },
       {
         matches: ['dark','smooth-creamy','fruity'],
-        pairing:'Dark creamy chocolate with fruity flavors pairs wonderfully with a light red wine or fresh berries.',
-        whyItWorks:'The creamy texture balances the fruit\'s acidity, while dark chocolate\'s depth enhances the fruit\'s natural sweetness, creating a luxurious and refreshing combination.'
+        pairing:'Dark chocolate mousse with fresh raspberries and a splash of raspberry liqueur.',
+        whyItWorks:'The airy, creamy mousse softens dark chocolate\'s edge, and tart berries add brightness that keeps the dessert from feeling heavy, a classic sweet-acid balance used by chocolatiers.'
       },
       {
         matches: ['dark','smooth-creamy','boozy'],
-        pairing:'Dark creamy chocolate with boozy notes pairs perfectly with a rich port wine or brandy.',
-        whyItWorks:'The creamy texture softens the alcohol\'s intensity, while dark chocolate\'s bitterness complements the wine\'s tannins, creating a sophisticated and indulgent pairing.'
+        pairing:'Pair creamy dark chocolate with brandy or tawny port.',
+        whyItWorks:'Port\'s dried-fruit notes echo cocoa\'s natural raisin aromas, while brandy\'s vanilla compounds complement chocolate\'s sweetness. The creaminess lowers alcohol burn, making each sip smoother.'
       },
       {
         matches: ['dark','smooth-creamy','classic-sweet'],
         pairing:'Dark creamy chocolate with classic sweetness pairs beautifully with a warm cup of black tea or coffee.',
-        whyItWorks:'The creamy texture enhances the chocolate\'s richness, while the classic sweetness balances dark chocolate\'s natural bitterness, creating a comforting and satisfying combination.'
+        whyItWorks:'Tea tannins grip onto cocoa particles and create a longer, smoother finish.'
       },
       {
         matches: ['dark','nuts-crunchy','classic-sweet'],
-        pairing:'Dark chocolate with nuts and classic sweetness pairs excellently with a warm nut bread or coffee cake.',
-        whyItWorks:'The nuts add texture and protein, while the classic sweetness complements dark chocolate\'s intensity, creating a balanced and energizing flavor profile.'
+        pairing:'Try dark chocolate with walnut banana bread or toasted nut loaf.',
+        whyItWorks:'Banana\'s esters bring out cocoa\'s tropical notes, and nuts provide contrast to dark chocolate\'s bitterness. Warm baked goods increase aromatic release — making the chocolate taste sweeter.'
       },
       {
         matches: ['dark','plain','classic-sweet'],
@@ -138,7 +139,7 @@ const personalities = [
       {
         matches: ['milk','smooth-creamy','classic-sweet'],
         pairing:'Enjoy your milk chocolate with a warm cup of lavendar tea or a glass of cold milk for the perfect cozy moment.',
-        whyItWorks:'The creamy texture of milk chocolate melts beautifully with warm tea, while lavender\'s floral notes enhance the chocolate\'s sweetness without overwhelming it.'
+        whyItWorks:'The extra dairy echoes milk chocolate\'s creamy profile, while gentle floral/vanilla notes add complexity without adding more sugar. Studies on fat–sweetness interaction show that fat can dampen bitterness and make sweetness feel rounder and more "full," which is exactly what\'s happening in this cozy combo.'
       },
       {
         matches: ['milk','plain','classic-sweet'],
@@ -168,17 +169,17 @@ const personalities = [
       {
         matches: ['milk','smooth-creamy','spicy'],
         pairing:'Creamy milk chocolate with spicy flavors pairs excellently with a spicy chai latte or ginger tea.',
-        whyItWorks:'The creamy texture soothes the spice, while milk chocolate\'s sweetness balances the heat, creating a warming and comforting combination that\'s both exciting and familiar.'
+        whyItWorks:'Dairy fat suppresses perceived bitterness and tempers spice burn. That lets warm spices feel cozy and aromatic instead of aggressive, which is why “spiced hot chocolate” is such a common tradition.'
       },
       {
         matches: ['milk','plain','spicy'],
         pairing:'Simple milk chocolate with spicy notes pairs wonderfully with a spicy hot chocolate or Mexican chocolate drink.',
-        whyItWorks:'The simplicity allows the spice to shine, while milk chocolate\'s sweetness balances the heat, creating a warming and satisfying flavor profile.'
+        whyItWorks:'Traditional Mexican chocolate drinks rely on exactly this trio: sweet cocoa, warm spice, gentle heat. Milk chocolate echoes that profile, so the pairing feels culturally natural and sensorially balanced.'
       },
       {
         matches: ['milk','plain','boozy'],
         pairing:'Simple milk chocolate with boozy flavors pairs perfectly with a creamy liqueur or Bailey\'s Irish Cream.',
-        whyItWorks:'The simplicity allows the alcohol\'s flavors to shine, while milk chocolate\'s creaminess complements the liqueur, creating a smooth and indulgent combination.'
+        whyItWorks:'Cream liqueurs share milk chocolate’s core flavors: dairy, vanilla, sweetness. Alcohol lifts aromatics and adds a warm finish so it feels more like a composed dessert than just “hot chocolate with a shot.”'
       },
       {
         matches: ['milk','plain','coffee'],
@@ -194,43 +195,43 @@ const personalities = [
     combinations: [
       {
         matches: ['white','smooth-creamy','fruity'],
-        pairing:'White chocolate pairs beautifully with fresh berries, especially with some sparkling wine and raspberries.',
-        whyItWorks:'White chocolate isn\'t technically chocolate - it\'s made from cocoa butter, which gives it a rich, buttery flavor that complements the acidity of fresh berries and the effervescence of sparkling wine.'
+        pairing:'White chocolate panna cotta topped with raspberries and passion fruit.',
+        whyItWorks:'White chocolate is basically cocoa butter + sugar, so it loves acidity. Tart fruit cuts through the fat and makes the dessert taste bright instead of cloying. Many chocolatiers recommend pairing white chocolate with berries and tropical fruits for this reason.'
       },
       {
         matches: ['white','plain','fruity'],
-        pairing:'Simple white chocolate with fruity flavors pairs perfectly with fresh citrus fruits or a light fruit salad.',
-        whyItWorks:'The simplicity of plain white chocolate allows the fruit\'s natural flavors to shine, while the chocolate\'s sweetness balances the fruit\'s tartness beautifully.'
+        pairing:'Simple white chocolate with a citrus salad (orange, lime, grapefruit).',
+        whyItWorks:'Acidic citrus juices and aromatic zest slice right through cocoa butter’s richness and clean your palate between bites. Pairing guides often recommend citrus with white or milk chocolate for exactly this “refresh & reset” effect.'
       },
       {
         matches: ['white','smooth-creamy','classic-sweet'],
         pairing:'Creamy white chocolate with classic sweetness pairs wonderfully with vanilla ice cream or a warm vanilla custard.',
-        whyItWorks:'Vanilla and white chocolate share similar flavor profiles, creating a harmonious and luxurious combination that feels indulgent yet familiar.'
+        whyItWorks:'Vanilla doubles down on white chocolate’s sweet, creamy profile, turning it into a “birthday cake / bakery” flavor. Soft bread or ice cream adds comforting texture and just enough starch or cold to keep it from feeling too rich.'
       },
       {
         matches: ['white','nuts-crunchy','fruity'],
-        pairing:'White chocolate with nuts and fruit pairs excellently with a tropical fruit smoothie or coconut water.',
-        whyItWorks:'The tropical fruits complement white chocolate\'s buttery richness, while the nuts add texture and the combination creates a refreshing, exotic flavor profile.'
+        pairing:'White chocolate with pistachios and dried cranberries, plus chilled coconut water or a spritzer.',
+        whyItWorks:'Salty, crunchy nuts keep sweetness in check, while dried fruit adds tang and chewiness. A light, refreshing drink (coconut water, spritzer) avoids piling on more sugar and helps reset your palate.'
       },
       {
         matches: ['white','nuts-crunchy','spicy'],
-        pairing:'White chocolate with nuts and spicy flavors pairs wonderfully with a spicy chai tea or ginger-infused drink.',
-        whyItWorks:'The nuts add texture and protein, while white chocolate\'s sweetness balances the spice, creating an unexpected and exciting flavor combination that\'s both warming and indulgent.'
+        pairing:'White chocolate bark with candied ginger and toasted pecans.',
+        whyItWorks:'Ginger’s heat is more aromatic than aggressive; paired with nuts and creamy sweetness it feels warm, cozy, and complex. You get sweetness, spice, and crunch all in one bite.'
       },
       {
         matches: ['white','nuts-crunchy','coffee'],
-        pairing:'White chocolate with nuts and coffee notes pairs excellently with a white chocolate mocha or coffee with cream.',
-        whyItWorks:'The nuts add texture and protein, while the coffee complements white chocolate\'s buttery richness, creating a sophisticated and energizing combination.'
+        pairing:'White chocolate–macadamia biscotti with a latte or earthy Indonesian coffee.',
+        whyItWorks:'white chocolate with earthy, lower-acidity coffees (e.g., Indonesia) keep things from becoming too sharp. Nuts add a buttery crunch that matches the body of the coffee.'
       },
       {
         matches: ['white','nuts-crunchy','classic-sweet'],
-        pairing:'White chocolate with nuts and classic sweetness pairs perfectly with a warm vanilla latte or nut bread.',
-        whyItWorks:'The nuts complement the classic sweetness, while white chocolate\'s buttery flavor enhances the combination, creating a comforting and satisfying flavor profile.'
+        pairing:'White chocolate–cashew clusters with a sprinkle of flaky sea salt.',
+        whyItWorks:'Salty crunch stops white chocolate from feeling “one-note.” Research shows sodium ions can suppress bitterness and boost perceived sweetness and fruity/floral notes in chocolate, which makes each bite taste more defined.'
       },
       {
         matches: ['white','smooth-creamy','spicy'],
         pairing:'Creamy white chocolate with spicy flavors pairs beautifully with a spicy hot chocolate or chai latte.',
-        whyItWorks:'The creamy texture soothes the spice, while white chocolate\'s sweetness balances the heat, creating a luxurious and warming combination that\'s both indulgent and exciting.'
+        whyItWorks:'White chocolate adds body and sweetness; chai adds structure (tannins) and aromatic warmth. Because white chocolate has no cocoa solids, it “borrows” character from the spice blend and tea.'
       },
       {
         matches: ['white','smooth-creamy','coffee'],
