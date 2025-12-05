@@ -380,7 +380,7 @@ function showPersonality(userData, appData)  {
   //console.log(Object.values(userData)[0]);
   let foundMatch = false;
   appData.forEach( item => {
-    // Skip default personality (has empty combinations array)
+    // skip default personality 
     if (!item.combinations || item.combinations.length === 0) {
       return;
     }
